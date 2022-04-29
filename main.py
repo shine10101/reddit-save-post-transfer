@@ -2,11 +2,17 @@ import praw
 import codecs
 from bs4 import BeautifulSoup
 
-reddit = praw.Reddit(client_id="",
-                    client_secret="",
-                    user_agent="",
-                    username="",
-                    password="")
+client_id="" # Client ID
+client_secret="" # Client secret
+user_agent="" # Reddit app name
+username="" # Reddit(new) Username
+password="" # Reddit(new) password
+
+reddit = praw.Reddit(client_id=client_id,
+                    client_secret=client_secret,
+                    user_agent=user_agent,
+                    username=username,
+                    password=password)
 
 savedposts = "reddit_export.html"
 sp = codecs.open(savedposts, "r", "utf-8")
