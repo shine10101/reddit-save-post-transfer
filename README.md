@@ -10,6 +10,7 @@ Step 2: Connect RedditManager to original (old) reddit account containing saved 
 
 Step 3: Export all items. The result should be a **reddit_export.html** file
 
+
 ## Create Reddit Script/bot
 
 Step 4: Sign in to Reddit using new account details
@@ -32,4 +33,6 @@ Step 6. Open main.py file and enter the following details:
 - username="" # Reddit(new) username
 - password="" # Reddit(new) password
 
-Step 6: Run main.py
+Step 7: Save reddit_export.html to same directory as main.py
+
+Step 8: Run main.py
